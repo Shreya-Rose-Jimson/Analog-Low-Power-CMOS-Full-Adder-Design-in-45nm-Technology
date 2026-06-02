@@ -1,8 +1,6 @@
 # Analog-Low-Power-CMOS-Full-Adder-Design-in-45nm-Technology
 Designed and optimized a Low-Power Hybrid 10T CMOS Full Adder in 45nm technology using Cadence Virtuoso, focusing on  analog transistor-level VLSI design and low-power circuit implementation.
 
-# Design and Analysis of Hybrid 10T Adder for Low-Power Applications
-
 ## Overview
 
 This project presents the design and analysis of a **Hybrid 10-Transistor (10T) Full Adder** optimized for low-power VLSI applications. The work is based on the Hybrid 10T adder architecture proposed by Srinivas et al. and further enhanced using transistor-level low-power techniques such as supply voltage scaling, high-threshold voltage (HVT) transistors, and glitch reduction methods.
@@ -15,14 +13,9 @@ The design was implemented and simulated using **Cadence Virtuoso** in **45 nm C
 
 | Parameter | Details |
 |------------|----------|
-| Course | Low Power VLSI (UE23EC342BB4) |
-| Institution | PES University |
-| Department | Electronics and Communication Engineering |
-| Student | Shreya Rose Jimson (PES1UG23EC289) |
-| Guide | Prof. Babitha S Ullal |
 | Technology Node | 45 nm CMOS |
 | Design Tool | Cadence Virtuoso |
-| Duration | Jan – May 2026 |
+
 
 ---
 
@@ -61,7 +54,9 @@ This project focuses on enhancing the power efficiency of a Hybrid 10T Full Adde
 
 ### Base Paper Circuit
 
-> Insert Figure 1 here
+> <img width="940" height="638" alt="image" src="https://github.com/user-attachments/assets/58577cc1-aa32-4587-9453-61c89a99042c" />
+
+
 
 ```text
 Figure 1: Base Paper Hybrid 10T Adder Schematic
@@ -73,7 +68,8 @@ Figure 1: Base Paper Hybrid 10T Adder Schematic
 Figure 2: Hybrid 10T Adder Schematic Implemented in Cadence Virtuoso
 ```
 
-> Insert Figure 2 here
+> <img width="940" height="533" alt="image" src="https://github.com/user-attachments/assets/717045f0-e432-4569-bd02-23caffee82c7" />
+
 
 ---
 
@@ -83,9 +79,7 @@ Figure 2: Hybrid 10T Adder Schematic Implemented in Cadence Virtuoso
 
 Dynamic power consumption is proportional to the square of the supply voltage:
 
-\[
-P \propto V_{DD}^{2}
-\]
+**P ∝ VDD²**
 
 Reducing the supply voltage significantly lowers switching power consumption.
 
@@ -180,15 +174,13 @@ Common Parameters:
 - Correct CARRY output observed
 - All input combinations successfully verified
 
-### Output Waveforms
+### Output Waveform
 
-> Insert waveform screenshots here
+> <img width="733" height="409" alt="image" src="https://github.com/user-attachments/assets/14172ce8-3092-4835-92a8-aee260e2d217" />
+
 
 ```text
-Figure 3: Base Design Waveforms
-Figure 4: Voltage Scaled Design Waveforms
-Figure 5: HVT Cell Implementation
-Figure 6: Final Optimized Design Waveforms
+Figure 3:Output Waveform
 ```
 
 ---
@@ -310,13 +302,10 @@ DOI: https://doi.org/10.1016/j.prime.2023.100379
 │   ├── base_10T_adder.png
 │   └── optimized_10T_adder.png
 ├── waveforms/
-│   ├── base_design.png
-│   ├── voltage_scaled.png
-│   └── final_optimized.png
+│   ├── output_logic.png
 ├── simulations/
 │   └── cadence_results
-└── report/
-    └── Project_Report.pdf
+
 ```
 
 ---
