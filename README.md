@@ -295,10 +295,3 @@ DOI: https://doi.org/10.1016/j.prime.2023.100379
 
 
 
-
-```
-
----
-**Author:** Shreya Rose Jimson  
-**Course:** Low Power VLSI (UE23EC342BB4)  
-**PES University, Bengaluru**
