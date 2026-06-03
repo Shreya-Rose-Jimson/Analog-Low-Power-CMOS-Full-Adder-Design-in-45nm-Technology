@@ -292,19 +292,9 @@ D. Srinivas, N. Siva, and Rajendra Naik Bhukya,
 
 DOI: https://doi.org/10.1016/j.prime.2023.100379
 
----
 
-## Repository Structure
 
-```text
-├── README.md
-├── schematics/
-│   ├── base_10T_adder.png
-│   └── optimized_10T_adder.png
-├── waveforms/
-│   ├── output_logic.png
-├── simulations/
-│   └── cadence_results
+
 
 ```
 
